@@ -99,8 +99,8 @@ def train(args):
 
 parser = argparse.ArgumentParser(description="LSRFN")
 parser.add_argument("--dataset", type=str, default="Freebase")
-parser.add_argument("--task", type=str, default="classification")
-# parser.add_argument("--task", type=str, default="clustering")
+# parser.add_argument("--task", type=str, default="classification")
+parser.add_argument("--task", type=str, default="clustering")
 parser.add_argument("--cuda", type=int, default=0)
 parser.add_argument("--ratio", type=int, default=[20, 40, 60])
 args = parser.parse_args()

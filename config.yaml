@@ -42,7 +42,7 @@ Freebase:
   long_mask_rate: 0.6
   short_mask_rate: 0.75
   metapath_layers: 1
-  heads: 4,
+  heads: 4
   noise_rate: 0.16
   gat_drop: 0.0
   epoch: 300
