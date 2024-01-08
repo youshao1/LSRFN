@@ -5,7 +5,7 @@ Long-Short-Range Fused Network for Heterogeneous Graph Representation Learning
 Using an unsupervised approach to solve the problem of missing short-range dependencies under metapaths.
 
 Supported datasets: "dblp", "freebase", "acm", "aminer", "IMDB".
-The IMDB dataset is available in PYG and can be downloaded directly from PYG. The link is 
+The IMDB dataset is available in PYG and can be downloaded directly from PYG. The link is   
 https://pytorch-geometric.readthedocs.io/en/latest/generated/torch_geometric.datasets.IMDB.html#torch_geometric.datasets.IMDB
 
 Supported tasks: "classification", "clustering".
