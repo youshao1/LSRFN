@@ -107,7 +107,7 @@ class LSRFN(nn.Module):
         self.metepath_mask_rate=metpath_mask_rate
         self.nei_mask_rate=nei_mask_rate
         self.dropout=dropout
-        self.feat_drop = self.featdrop = nn.Dropout(feat_drop)
+        self.feat_drop =  nn.Dropout(feat_drop)
         self.HAN_layers = nn.ModuleList()
         for l in range(metapath_layers):
             self.HAN_layers.append(HANConv(hidden_dim,hidden_dim,use_data.metadata(),heads=heads,negative_slope=0.2,dropout=attn_drop))
